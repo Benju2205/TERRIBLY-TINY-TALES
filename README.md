@@ -11,7 +11,7 @@ The app uses the following libraries and plugins:
 - react-csv (https://www.npmjs.com/package/react-csv)
 - Bootstrap (https://getbootstrap.com/)
 
-### Components of the Code
+## Components of the Code
 
 The code consists of a single component, 'App'. The component defines the following states:
 
@@ -23,7 +23,7 @@ The component defines the following functions:
 'getWordCount': to extract and count the words in the text content
 The component renders a button to initiate the file fetch and display the histogram. If the word count data is available, the component also renders a histogram using the 'BarChart', 'Bar', 'XAxis', 'YAxis', 'CartesianGrid', and 'Tooltip' components from Recharts. The component also renders a 'CSVLink' component from 'react-csv' to enable the user to download the histogram data as a CSV file.
 
-#### Installation and Usage
+## Installation and Usage
 
 To use this app, you need to have Node.js installed on your machine. You can follow these steps to install and run the app:
 
@@ -35,9 +35,13 @@ To use this app, you need to have Node.js installed on your machine. You can fol
 6. The histogram of the 20 most frequently occurring words will be generated and displayed.
 7. Click the "Export" button to download a CSV file of the histogram data.
 
-##### Code Structure
+## Code Structure
 
 - `App.js`: The main component that fetches the text data, generates the histogram data, and renders the UI.
 - `index.js`: The entry point of the application.
 - `index.css`: The CSS file for the application styling.
 - `README.md`: The documentation file for the application.
+
+## This app is hosted live on Netlify
+
+https://ttt-histogram.netlify.app/
